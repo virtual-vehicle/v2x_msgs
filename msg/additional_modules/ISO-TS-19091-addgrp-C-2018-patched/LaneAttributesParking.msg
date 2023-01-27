@@ -1,0 +1,14 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:04 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 lane_attributes_parking
+int64 LANE_ATTRIBUTESPARKING_PARKING_REVOCABLE_LANE = 0
+int64 LANE_ATTRIBUTESPARKING_PARALLEL_PARKING_IN_USE = 1
+int64 LANE_ATTRIBUTESPARKING_HEAD_IN_PARKING_IN_USE = 2
+int64 LANE_ATTRIBUTESPARKING_DO_NOT_PARK_ZONE = 3
+int64 LANE_ATTRIBUTESPARKING_PARKING_FOR_BUS_USE = 4
+int64 LANE_ATTRIBUTESPARKING_PARKING_FOR_TAXI_USE = 5
+int64 LANE_ATTRIBUTESPARKING_NO_PUBLIC_PARKING_USE = 6

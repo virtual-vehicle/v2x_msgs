@@ -1,0 +1,22 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:05 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 station_type
+int64 STATION_TYPE_RANGE_MIN = 0
+int64 STATION_TYPE_RANGE_MAX = 255
+int64 STATION_TYPE_UNKNOWN = 0
+int64 STATION_TYPE_PEDESTRIAN = 1
+int64 STATION_TYPE_CYCLIST = 2
+int64 STATION_TYPE_MOPED = 3
+int64 STATION_TYPE_MOTORCYCLE = 4
+int64 STATION_TYPE_PASSENGER_CAR = 5
+int64 STATION_TYPE_BUS = 6
+int64 STATION_TYPE_LIGHT_TRUCK = 7
+int64 STATION_TYPE_HEAVY_TRUCK = 8
+int64 STATION_TYPE_TRAILER = 9
+int64 STATION_TYPE_SPECIAL_VEHICLES = 10
+int64 STATION_TYPE_TRAM = 11
+int64 STATION_TYPE_ROAD_SIDE_UNIT = 15

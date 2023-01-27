@@ -1,0 +1,24 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:05 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 code_units
+int64 CODE_UNITS_RANGE_MIN = 0
+int64 CODE_UNITS_RANGE_MAX = 15
+int64 CODEUNITS_KMPERH = 0
+int64 CODEUNITS_MILESPERH = 1
+int64 CODEUNITS_KILOMETRE = 2
+int64 CODEUNITS_METRE = 3
+int64 CODEUNITS_DECIMETRE = 4
+int64 CODEUNITS_CENTIMETRE = 5
+int64 CODEUNITS_MILE = 6
+int64 CODEUNITS_YARD = 7
+int64 CODEUNITS_FOOT = 8
+int64 CODEUNITS_MINUTES_OF_TIME = 9
+int64 CODEUNITS_TONNES = 10
+int64 CODEUNITS_HUNDREDKG = 11
+int64 CODEUNITS_POUND = 12
+int64 CODEUNITS_RATE_OF_INCLINE = 13
+int64 CODEUNITS_DURATIONINMINUTES = 14

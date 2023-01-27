@@ -1,0 +1,14 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:04 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 lane_attributes_bike
+int64 LANE_ATTRIBUTESBIKE_BIKE_REVOCABLE_LANE = 0
+int64 LANE_ATTRIBUTESBIKE_PEDESTRIAN_USE_ALLOWED = 1
+int64 LANE_ATTRIBUTESBIKE_IS_BIKE_FLY_OVER_LANE = 2
+int64 LANE_ATTRIBUTESBIKE_FIXED_CYCLE_TIME = 3
+int64 LANE_ATTRIBUTESBIKE_BI_DIRECTIONAL_CYCLE_TIMES = 4
+int64 LANE_ATTRIBUTESBIKE_ISOLATED_BY_BARRIER = 5
+int64 LANE_ATTRIBUTESBIKE_UNSIGNALIZED_SEGMENTS_PRESENT = 6

@@ -1,0 +1,14 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:05 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 dangerous_end_of_queue_sub_cause_code
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_RANGE_MIN = 0
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_RANGE_MAX = 255
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_UNAVAILABLE = 0
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_SUDDEN_END_OF_QUEUE = 1
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_QUEUE_OVER_HILL = 2
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_QUEUE_AROUND_BEND = 3
+int64 DANGEROUS_END_OF_QUEUE_SUB_CAUSE_CODE_QUEUE_IN_TUNNEL = 4

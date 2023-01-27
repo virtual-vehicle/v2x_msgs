@@ -1,0 +1,13 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:04 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 lane_attributes_striping
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_TO_CONNECTING_LANES_REVOCABLE_LANE = 0
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_DRAW_ON_LEFT = 1
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_DRAW_ON_RIGHT = 2
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_TO_CONNECTING_LANES_LEFT = 3
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_TO_CONNECTING_LANES_RIGHT = 4
+int64 LANE_ATTRIBUTESSTRIPING_STRIPE_TO_CONNECTING_LANES_AHEAD = 5

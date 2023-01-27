@@ -1,0 +1,14 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:05 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 acceleration_control
+int64 ACCELERATION_CONTROL_BRAKE_PEDAL_ENGAGED = 0
+int64 ACCELERATION_CONTROL_GAS_PEDAL_ENGAGED = 1
+int64 ACCELERATION_CONTROL_EMERGENCY_BRAKE_ENGAGED = 2
+int64 ACCELERATION_CONTROL_COLLISION_WARNING_ENGAGED = 3
+int64 ACCELERATION_CONTROL_ACC_ENGAGED = 4
+int64 ACCELERATION_CONTROL_CRUISE_CONTROL_ENGAGED = 5
+int64 ACCELERATION_CONTROL_SPEED_LIMITER_ENGAGED = 6

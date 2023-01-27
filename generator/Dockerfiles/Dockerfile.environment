@@ -1,0 +1,42 @@
+# Environment for generation of the vifits library
+#
+# Author: Christoph Pilz
+#
+
+FROM ubuntu:20.04
+
+RUN DEBIAN_FRONTEND="noninteractive" apt-get update && apt-get -y install tzdata
+
+RUN apt-get update \
+  && apt-get install -y ssh \
+      build-essential \
+      gcc \
+      g++ \
+      gdb \
+      clang \
+      cmake \
+      rsync \
+      tar \
+      python \
+  && apt-get clean
+
+# install generator dependencies
+RUN apt-get update \
+  && apt-get install -y git \
+    autoconf \
+    libtool \
+  && apt-get clean
+
+# install generator
+WORKDIR /tmp
+RUN git clone https://github.com/virtual-vehicle/vehicle_captain_asn1_parser
+WORKDIR /tmp/vehicle_captain_asn1_parser
+RUN git checkout ros2_msg_parser_from_velichkov
+RUN test -f configure || autoreconf -iv
+RUN ./configure
+RUN make
+RUN make install
+
+# create working environment
+WORKDIR /tmp/gen_env
+COPY . .

@@ -1,0 +1,26 @@
+#
+# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
+# Date: Fri Jan 20 13:59:05 2023
+# Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+
+
+int64 channel_id
+int64 CHANNEL_ID_RANGE_MIN = 0
+int64 CHANNEL_ID_RANGE_MAX = 255
+int64 CHANNEL_ID_OBU = 0
+int64 CHANNEL_ID_SAM1 = 1
+int64 CHANNEL_ID_SAM2 = 2
+int64 CHANNEL_ID_ICC = 3
+int64 CHANNEL_ID_DISPLAY = 4
+int64 CHANNEL_ID_BUZZER = 5
+int64 CHANNEL_ID_PRINTER = 6
+int64 CHANNEL_ID_SERIAL_INTERFACE = 7
+int64 CHANNEL_ID_PARALLEL_INTERFACE = 8
+int64 CHANNEL_ID_G_PS = 9
+int64 CHANNEL_ID_TACHOGRAPH = 10
+int64 CHANNEL_ID_PRIVATE_USE1 = 11
+int64 CHANNEL_ID_PRIVATE_USE2 = 12
+int64 CHANNEL_ID_PRIVATE_USE3 = 13
+int64 CHANNEL_ID_PRIVATE_USE4 = 14
+int64 CHANNEL_ID_PRIVATE_USE5 = 15
+int64 CHANNEL_ID_BLUETOOTH = 16
