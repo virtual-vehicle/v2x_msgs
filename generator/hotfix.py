@@ -18,27 +18,30 @@ __status__ = "Production"
 import os
 import shutil
 
+# variables
 hotfixFiles = []
-i = 0
+rel_path_hotfix = "msg/hotfix"
+rel_path_msgs = "build/msg"
 
-for (root, dirs, files) in os.walk('hotfix'):
+# collect all hotfix files
+for (root, dirs, files) in os.walk(rel_path_hotfix):
     hotfixFiles.append(files)
 
-for (root, dirs, files) in os.walk('../'):
-    if str(root) != "../generator/hotfix":
-        i = 0
-        for file in files:
-            for hotfix in hotfixFiles[0]:
-                targetPath = ""
-                hotfixPath = ""
-                if str(file) == "REGEXTIDANDTYPE.msg":
-                    targetPath = root + "/"
-                    targetPath += file
-                    os.remove(targetPath)
-                    break
-                elif str(hotfix) == str(file):
-                    hotfixPath = "../generator/hotfix/" + hotfix
-                    targetPath = root + "/"
-                    targetPath += file
-                    shutil.copy(hotfixPath, targetPath)
-                i += 1
+# walk through msgs and apply hotfixes
+for (root, dirs, files) in os.walk(rel_path_msgs):
+    for file in files:
+        for hotfix in hotfixFiles[0]:
+            targetPath = ""
+            hotfixPath = ""
+            # remove
+            if str(file) == "REGEXTIDANDTYPE.msg":
+                targetPath = root + "/"
+                targetPath += file
+                os.remove(targetPath)
+                break
+            # replace
+            elif str(hotfix) == str(file):
+                hotfixPath = rel_path_hotfix + "/" + hotfix
+                targetPath = root + "/"
+                targetPath += file
+                shutil.copy(hotfixPath, targetPath)

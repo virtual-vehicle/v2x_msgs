@@ -20,37 +20,39 @@ import os
 # The purpose of this file is to remove all the duplicated files.
 # We choose ETSI over ISO and ISO over DSRC!
 
+rel_path_msgs = "build/msg"
+
 # DriverCharacteristics.msg:
-filePath = "../generator/msg/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/DriverCharacteristics.msg"
+filePath = rel_path_msgs + "/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/DriverCharacteristics.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # TrailerCharacteristics.msg:
-filePath = "../generator/msg/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/TrailerCharacteristics.msg"
+filePath = rel_path_msgs + "/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/TrailerCharacteristics.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # SpeedConfidence.msg:
-filePath = "../generator/msg/additional_modules/ISO-TS-19091-addgrp-C-2018-patched/SpeedConfidence.msg"
+filePath = rel_path_msgs + "/additional_modules/ISO-TS-19091-addgrp-C-2018-patched/SpeedConfidence.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # Version.msg:
-filePath = "../generator/msg/additional_modules/TS17419_2014_CITSapplMgmtIDs/Version.msg"
+filePath = rel_path_msgs + "/additional_modules/TS17419_2014_CITSapplMgmtIDs/Version.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # StationType.msg:
-filePath = "../generator/msg/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/StationType.msg"
+filePath = rel_path_msgs + "/is_ts103301/iso-patched/ISO14906_2018_EfcDsrcApplicationv6/StationType.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # Temperature.msg:
-filePath = "../generator/msg/additional_modules/ISO19321IVIv2/Temperature.msg"
+filePath = rel_path_msgs + "/additional_modules/ISO19321IVIv2/Temperature.msg"
 if os.path.exists(filePath):
     os.remove(filePath)
 
 # Heading.msg:
-filePath = "../generator/msg/additional_modules/ISO-TS-19091-addgrp-C-2018-patched/Heading.msg"
+filePath = rel_path_msgs + "/additional_modules/ISO-TS-19091-addgrp-C-2018-patched/Heading.msg"
 if os.path.exists(filePath):
     os.remove(filePath)

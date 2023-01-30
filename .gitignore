@@ -3,9 +3,6 @@
 # v2x asn1 specifications
 vehicle_captain_its_asn1_specifications/
 
-# v2x library output
-/generator/v2x_msgs/
-
 # GNU global tags
 GTAGS
 GRTAGS

@@ -22,16 +22,16 @@ Simply put a working id_rsa in the root folder. The Dockerfile does the rest.
 docker exec -it ros2_msg_gen bash
 
 # Execute the script
-./command-cxx.sh
+./command.sh
 
 # exit the docker
 exit
 
 # copy the generated library from the docker
-docker cp ros2_msg_gen:/tmp/gen_env/ ./ros2_msg_gen
+docker cp ros2_msg_gen:/tmp/gen_env/build/v2x_msgs ./v2x_msgs
 
 # your generated files are now in the vifits folder
-cp -r ros2_msg_gen <destination>
+cp -r v2x_msgs <destination>
 ```
 
 
