@@ -63,4 +63,6 @@ install/
 logs/
 .catkin_tools/
 
-
+# bloom generate ignores
+/.obj-x86_64-linux-gnu/
+/debian/
