@@ -17,7 +17,7 @@
 
 ### ### Defines ### ###
 VC_ITS_LIB_NAME="v2x_msgs"
-VC_ITS_LIB_VERSION="1.0"
+VC_ITS_LIB_VERSION="1.1"
 
 ROOT_DIR=$(pwd)
 ASN1C_DIR=/usr/local/share/asn1c
@@ -361,7 +361,7 @@ function clean_all() {
 }
 
 function copy_custom_messages() {
-  cp -r  "$CUSTOM_MSG_SOURCE_DIR" "$MSG_BUILD_ROOT_DIR"/
+  cp -r  "$CUSTOM_MSG_SOURCE_DIR"/. "$MSG_BUILD_ROOT_DIR"/
   echo "-- copied custom messages"
 }
 function replace_file_hotfix() {
