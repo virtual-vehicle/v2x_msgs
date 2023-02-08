@@ -1,7 +1,6 @@
 #
-# Created by script of Patrizia Neubauer (https://github.com/patrizianeubauer)
-# Date: Thu Jan 19 09:10:59 2023
 # Generated with ROS-Parser from vehicleCAPTAIN Toolbox (https://github.com/virtual-vehicle/vehicle_captain_asn1_parser)
+# Patrizia Neubauer (https://github.com/patrizianeubauer)
 #
 
 # Adaptation of the integer enumeration
